@@ -1,0 +1,32 @@
+#
+# This file contains configuration flags to customize your site
+#
+
+# Name of your site (displayed in the header)
+name: Vasu's World
+description: A blog on technology with a focus on AI
+
+# Short bio or description (displayed in the header)
+
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: /images/vasu_profile.jpeg
+
+#
+# Flags below are optional
+#
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  linkedin: vasu-parameswaran
+
+
+url: http://www.vasu.work/
+enforce_ssl: https://www.vasu.work
+include: ['_pages']
+paginate: 6
+paginate_path: /page:num/
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
