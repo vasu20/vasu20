@@ -1,3 +1,7 @@
+---
+layout: post
+title: AI:Where We Are, and The Road Ahead
+---
 A model of reality (or simply *knowledge* or a *theory*) within a domain is essentially a “compression” of facts that allows us to calculate in an abstract world, and predict in the real world. A classic example is the ability to explain the motion of a wide range of objects in a wide range of situations with just three Newton’s laws of motion. 
 
 Science strives for theories as foundational axioms, plus rules governing production of new facts out of them, allowing us to make predictions with pen and paper or computers, verify those predictions in the physical world via experiment, and put them to use for practical applications. Typically, as new facts are discovered which an established theory is not able to explain, exceptions and special rules are grafted onto the theory in order to maintain the ability to continue making predictions, leading to a decrease in the level of “compression” in our knowledge. Then at some point, new great minds emerge and help usher in a radical new theory, getting rid of all the exceptions and special rules, resulting in a new round of “compression” in our knowledge. Examples of such phenomena in relatively modern times include relativity, modern quantum mechanics, plate tectonics, genetics, etc. 

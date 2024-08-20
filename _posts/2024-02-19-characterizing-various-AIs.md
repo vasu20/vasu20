@@ -1,3 +1,7 @@
+---
+layout: post
+title: Characterizing Various AIs
+---
 Generative AI is the new darling of the AI species, leaving traditional AI, which everyone was enamored of for a decade, a little jealous.  Jokes aside, Traditional AI, by which I mean an AI that solves classic tasks such as detection, classification, recognition, segmentation, etc. continues to be important, and still is in relatively early stages of widespread adoption in industry. 
 
 The wide chasm between AI and real-world applications continues to grow as a steady stream of advances appear regularly. Meanwhile, the work of envisioning impactful products that connect the dots between that technology and real-world use cases remains. As we know, customers do not buy technological capability. They buy products that solve their problems. 
