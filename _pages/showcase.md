@@ -22,7 +22,7 @@ At Percipient.ai, I have envisioned and led the technical development of Mirage 
 - **Modern UX**: Allows analysts to understand a region over time, spot subtle trends, collaborate, create a repository for their intelligence gatherings, and feed that back to Mirage’s AI.
 
 ### Impact 
-Mirage Geospatial became Percipient’s first revenue-generating product, with several million dollars in sales to date. It has received high praise from analysts for its usability, mission effectiveness, and speed. The work is covered by two patent applications nearing award: 
+Mirage Geospatial became Percipient’s first revenue-generating product, receiving high praise from analysts for its usability, mission effectiveness, and speed. The work is covered by two patent applications nearing award: 
 - [**Product level patent**](https://patents.google.com/patent/CA3164893A1/en?inventor=Vasudev+Parameswaran&oq=Vasudev+Parameswaran&sort=new) covering system design and workflow.
 - [**One-Shot “Search by Example”**](https://patents.google.com/patent/US20250232560A1/en?inventor=Vasudev+Parameswaran&oq=Vasudev+Parameswaran&sort=new) patent.
 
