@@ -37,7 +37,7 @@ Soon after I joined Uber, I conceived and prototyped Uber’s first ML based ETA
 
 
 ### Impact
-The ETA error was provably reduced by an average of 20% across cities. The system currently in place at Uber for this ETA improvement methodology is called DeepETA, and although completely revamped, still retains my core formulation of ETA error reduction as an ML problem ten years ago. My original innovation is covered by the following patent application:
+The ETA error was provably reduced by an average of 20% across cities. The system currently in place at Uber for this ETA improvement methodology is called DeepETA, and although completely revamped, still retains my core formulation of ETA error reduction as an ML problem ten years ago. My original innovation is covered by the following granted patent:
 
 - [**Determining adjusted trip duration using route features**](https://patents.google.com/patent/US10429200B1/en?inventor=Vasudev+Parameswaran&oq=Vasudev+Parameswaran&sort=new&page=1)
 
