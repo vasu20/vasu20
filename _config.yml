@@ -25,6 +25,7 @@ enforce_ssl: https://www.vasu.work
 include: ['_pages']
 paginate: 6
 paginate_path: /page:num/
+destination: docs
 # Exclude these files from your production _site
 exclude:
   - Gemfile
