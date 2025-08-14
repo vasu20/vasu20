@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /showcase-vasu-9360q/
 
