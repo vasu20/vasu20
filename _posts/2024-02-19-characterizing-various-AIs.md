@@ -26,7 +26,9 @@ It is interesting and instructive to think about the kinds of data a given softw
 
 ## **Highly Structured Input and Output**
 
-Generally speaking, traditional software takes well-defined, structured input, and produces well-defined, structured output. There is a clear right or wrong answer in every case. The very existence of software quality assurance as a discipline to ensure that software produces the correct output for every conceivable input, makes this point. While traditional software is a vast discipline, there is not much to talk about in the current context, except to note that it presents as one possible class of software system in our framework. Sometimes traditional software masquerades as “AI”, examples of which we will see below. This quadrant also includes numerical and/or categorical data mapped non-trivially to structured output.
+Generally speaking, traditional software takes well-defined, structured input, and produces well-defined, structured output. There is a clear right or wrong answer in every case. The very existence of software quality assurance as a discipline to ensure that software produces the correct output for every conceivable input, makes this point. While traditional software is a vast discipline, there is not much to talk about in the current context, except to note that it presents as one possible class of software system in our framework. Sometimes traditional software masquerades as “AI”, examples of which we will see below. 
+
+When a non-trivial mapping exists from a set of numerical and/or categorical data to structured output such as predicting the next best move in some board games, deciding the credit risk of an applicant, etc., AI would be needed and would fall in this quadrant. 
 
 ## **Low Structure in Input, High Structure in Output**
 
