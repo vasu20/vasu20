@@ -22,7 +22,7 @@ Some nuances: Code (as in *programs*) is structured data, strictly speaking. Pro
 
 It is interesting and instructive to think about the kinds of data a given software system takes as input and produces as output. Specifically, thinking of inputs and outputs as being highly structured or not, we can classify different kinds of AI and non-AI based software broadly into four regions as shown in the figure below depending upon the degree of structure in their inputs and outputs. I will describe briefly the essential character of software in the four regions including any nuances, and then discuss their implications later.
 
-![Local image]({{ "assets/images/characterizing-various-ais-unfilled.png" | relative_url }})
+![Local image]({{ "assets/images/characterizing-various-ais-unfilled.png" | relative_url }}){: .on-white }
 
 ## **Highly Structured Input and Output**
 
@@ -54,7 +54,7 @@ Some nuances: In current times, the lines between CG and AI, particularly genera
 
 We can now fill up the graph: 
 
-![Local image]({{ "assets/images/characterizing-various-ais-filled.png" | relative_url }})
+![Local image]({{ "assets/images/characterizing-various-ais-filled.png" | relative_url }}){: .on-white }
 
 A natural question from this classification is : “So what?”. For starters, it allows us to choose the type of AI we need for a given task better. Generative AI need not be the answer for all AI needs. For example, if you need small amounts of automatically actionable data from a large amount of unstructured data, a traditional AI will do. If there’s a lot of unstructured data and you are looking for a human digestible summary, then look for generative AI tools. If you want data for training a traditional AI model, be wary of using generative AI techniques, which require a lot of training data themselves to begin with, are not finely controllable, and prone to producing unrealistic data. As with any AI, garbage in will give garbage out. CG based techniques or simulations grounded on mathematical models may be more appropriate. Lastly, as you think a bit deeper and more imaginatively through this classification, interesting research and product possibilities emerge, which I will save for another time ;-).
 

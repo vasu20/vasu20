@@ -1,0 +1,78 @@
+/* ==== Vasu custom overrides (Reverie) ==== */
+
+/* Base */
+:root { --accent: #2563eb; }               /* link color (blue-600) */
+html { scroll-behavior: smooth; }
+body {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+  line-height: 1.6;
+  color: #111827;                          /* near-black on light */
+}
+h1, h2, h3 { letter-spacing: -0.01em; font-weight: 700; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header / nav (your header is .masthead) */
+.masthead nav a {
+  padding: .25rem .5rem;
+  border-radius: .5rem;
+  opacity: 1;                              /* prevent dim look */
+  color: #0f172a;                          /* dark text on light */
+}
+.masthead nav a:hover { background: rgba(37,99,235,.08); }
+.site-description { color: #4b5563; }
+
+/* Posts */
+.posts .post { margin: 2rem 0; }
+.post_date { color: #6b7280; font-size: .9rem; }
+.read-more { font-weight: 600; }
+
+/* Tags (optional, used at bottom of posts) */
+.tags a {
+  display:inline-block; font-size:.8rem; padding:.15rem .5rem; border-radius:9999px; margin:.1rem;
+  background:#f3f4f6; color:#374151; border:1px solid #e5e7eb;
+}
+.tags a:hover { background:#e5e7eb; }
+
+/* ===== Dark mode ===== */
+@media (prefers-color-scheme: dark) {
+  :root { --accent: #93c5fd; }             /* softer blue on dark */
+  body { background:#0b0f19; color:#e5e7eb; }
+
+  /* Header */
+  .site-name a, .site-description { color:#e5e7eb !important; }
+  .site-description { color:#cbd5e1 !important; }
+  .masthead nav a { color:#f1f5f9 !important; }
+  .masthead nav a:hover {
+    color:#ffffff !important;
+    background: rgba(241,245,249,.12);
+    border-radius: 8px;
+  }
+
+  /* Content */
+  h1, h2, h3 { color:#f3f4f6 !important; }
+  .post_date, .post-meta, .entry { color:#cbd5e1 !important; }
+  .pagination a, .pagination span { color:#cbd5e1 !important; }
+}
+/* --- Dark mode: fix white footer strip --- */
+@media (prefers-color-scheme: dark) {
+  html, body { background:#0b0f19; }               /* safety */
+  .wrapper-footer { 
+    background:#0b0f19 !important;                 /* match page */
+    border-top:1px solid #1f2937;                   /* subtle divider */
+  }
+  .wrapper-footer .container,
+  .wrapper-footer .footer { background: transparent !important; }
+
+  .footer, .footer a { color:#cbd5e1 !important; }  /* readable text/icons */
+  .footer a:hover { color:#ffffff !important; }
+}
+.about-headshot{
+  width:180px; aspect-ratio:1/1;
+  border-radius:9999px;
+  object-fit:cover;
+  object-position:50% 20%; /* move crop up */
+  display:block; margin:0 auto 1rem;
+}
+.on-white { background:#fff; padding:.5rem; border-radius:8px; }
+

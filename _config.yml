@@ -9,15 +9,22 @@ description: A personal blog on mostly technology.
 # Short bio or description (displayed in the header)
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-#avatar: /images/vasu_profile.jpeg
+avatar: /assets/images/vasu_profile.jpg
+
+permalink: /:categories/:title/
+timezone: America/San_Francisco
+markdown: kramdown
+highlighter: rouge
+paginate: 10
+paginate_path: "/page:num/"
 
 #
 # Flags below are optional
 #
 
 # Includes an icon in the footer for each username you enter
-footer-links:
-  linkedin: vasu-parameswaran
+#footer-links:
+#  linkedin: vasu-parameswaran
 
 
 url: http://www.vasu.work/
