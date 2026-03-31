@@ -1,6 +1,8 @@
 ---
 layout: post
 title: AI:Where We Are, and The Road Ahead
+redirect_from:
+  - /2024/08/19/AI-Where-we-are,-the-road-ahead.html
 ---
 A model of reality (or simply *knowledge* or a *theory*) within a domain is essentially a “compression” of facts that allows us to calculate in an abstract world, and predict in the real world. A classic example is the ability to explain the motion of a wide range of objects in a wide range of situations with just three Newton’s laws of motion. 
 

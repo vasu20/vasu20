@@ -2,6 +2,8 @@
 layout: post
 title: Prototype to Product:A Field-Tested Framework for Innovation
 date: 2025-08-10
+redirect_from:
+  - /2025/08/10/prototype-to-product-a-field-tested-framework-for-innovation.html
 ---
 # Below the Cut Line
 At a company where I worked, an impactful prototype developed by a researcher sat on the vine, constantly ending “below the cut line”. Frustrated, he took matters into his own hands and implemented it within the product under a feature branch, even coding in a framework he had little familiarity with, ultimately succeeding at making it work in record time (note: before our era of AI-assisted coding!). Unfortunately that still proved insufficient as the feature never made it into the official product. 

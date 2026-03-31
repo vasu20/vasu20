@@ -1,6 +1,8 @@
 ---
 layout: post
 title: When Does it Make Sense to Use Computer Vision and AI
+redirect_from:
+  - /2018/10/05/when-does-it-make-sense-to-use-computer-vision.html
 ---
 We interact with software every day where inputs and outputs are well-defined.  And as with gadgets like cars and smartphones, we have come to expect 100% correctness of software.  Otherwise you cannot trust that your bank balance is correct, or that the flight reservation you booked last month was actually executed.  Correctness is the most basic and minimal expectation we have of software. Correctness being a given, the focus for traditional software development is on other equally important things like time and space-efficiency, reliability, maintainability, scalability, etc.  
 

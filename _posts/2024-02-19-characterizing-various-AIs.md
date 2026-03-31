@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Characterizing Various AIs
+redirect_from:
+  - /2024/02/19/characterizing-various-AIs.html
 ---
 Generative AI is the new darling of the AI species, leaving traditional AI, which everyone was enamored of for a decade, a little jealous.  Jokes aside, Traditional AI, by which I mean an AI that solves classic tasks such as detection, classification, recognition, segmentation, etc. continues to be important, and still is in relatively early stages of widespread adoption in industry. 
 
