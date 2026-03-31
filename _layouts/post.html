@@ -5,31 +5,43 @@ layout: default
 <article class="post detailed">
   <h1>{{ page.title }}</h1>
 
-  <div>
-    <p class="author_title">{{site.author}}  ·  {{ page.date | date: "%B %e, %Y" }}</p>
-    {% if page.last_modified_at %}
-    <p class="author_title" datetime="{{ page.last_modified_at | date_to_xmlschema }}">(Updated: {{ page.last_modified_at | date: "%b %-d, %Y" }})</p>
-    {% endif %}
-    <div class="post-tags">
-      {% if post %}
-        {% assign categories = post.categories %}
-      {% else %}
-        {% assign categories = page.categories %}
-      {% endif %}
-      {% for category in categories %}
-        <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-        {% unless forloop.last %}&nbsp;{% endunless %}
+  <div class="post-byline">
+    <span class="post-date">{{ page.date | date: "%B %-d, %Y" }}</span>
+    {% assign words = page.content | number_of_words %}
+    {% assign minutes = words | divided_by: 200 %}
+    {% if minutes < 1 %}{% assign minutes = 1 %}{% endif %}
+    <span class="sep">·</span>
+    <span class="post-read-time">{{ minutes }} min read</span>
+    {% if page.categories.size > 0 %}
+    <span class="sep">·</span>
+    <span class="post-tags">
+      {% for category in page.categories %}
+        <a href="{{ site.baseurl }}/categories/#{{ category | slugize }}">{{ category }}</a>{% unless forloop.last %}&nbsp;{% endunless %}
       {% endfor %}
-    </div>
+    </span>
+    {% endif %}
   </div>
-    
+
   <div class="entry">
     {{ content }}
   </div>
 
-  <!--<div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>-->
+  <nav class="post-nav">
+    {% if page.next %}
+    <a href="{{ site.baseurl }}{{ page.next.url }}" class="post-nav-item post-nav-newer">
+      <span class="nav-label">&#8592; Newer</span>
+      <span class="nav-title">{{ page.next.title }}</span>
+    </a>
+    {% else %}
+    <span></span>
+    {% endif %}
+    {% if page.previous %}
+    <a href="{{ site.baseurl }}{{ page.previous.url }}" class="post-nav-item post-nav-older">
+      <span class="nav-label">Older &#8594;</span>
+      <span class="nav-title">{{ page.previous.title }}</span>
+    </a>
+    {% endif %}
+  </nav>
 
   {% include disqus.html %}
 </article>
