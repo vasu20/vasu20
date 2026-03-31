@@ -27,7 +27,7 @@ paginate_path: "/page:num/"
 #  linkedin: vasu-parameswaran
 
 
-url: http://www.vasu.work/
+url: http://www.vasu.work
 enforce_ssl: https://www.vasu.work
 include: ['_pages']
 paginate: 6
